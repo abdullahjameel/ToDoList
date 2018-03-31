@@ -3,11 +3,14 @@ This class is part of "ToDo list" application on this class will represent
 the command words, how to deal with it and
 recognize weather a user entered a valid command or not.
  */
-package se.kth.sdaproject.toDoList;
+package se.kth.sdaproject.toDoList.view;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
+import se.kth.sdaproject.toDoList.DBhandler.IOFile;
+import se.kth.sdaproject.toDoList.model.Task;
+import se.kth.sdaproject.toDoList.controller.TaskList;
 
 
 public class CommandWords {

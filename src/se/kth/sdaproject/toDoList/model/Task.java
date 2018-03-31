@@ -1,13 +1,13 @@
 /**Class Task is represent the user task for ToDo list project.
 
-* the class will creat the a task contain of the taskID, the title, date
+* the class will create the a task contain of the taskID, the title, date
 * and project name.
 *  the variable done refer to the task status if its done or not and
-* by default the variable done are flase.  
+* by default the variable done are false.  
 
  
  */
-package se.kth.sdaproject.toDoList;
+package se.kth.sdaproject.toDoList.model;
 
 
 import java.io.IOException;

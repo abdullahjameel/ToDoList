@@ -5,6 +5,8 @@
  */
 package se.kth.sdaproject.toDoList;
 
+import se.kth.sdaproject.toDoList.DBhandler.IOFile;
+import se.kth.sdaproject.toDoList.model.Task;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.After;

@@ -5,6 +5,9 @@
  */
 package se.kth.sdaproject.toDoList;
 
+import se.kth.sdaproject.toDoList.model.Task;
+import se.kth.sdaproject.toDoList.controller.TaskList;
+import se.kth.sdaproject.toDoList.view.CommandWords;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.util.ArrayList;

@@ -1,6 +1,7 @@
 
 package se.kth.sdaproject.toDoList;
 
+import se.kth.sdaproject.toDoList.model.Task;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
