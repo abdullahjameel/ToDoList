@@ -21,14 +21,14 @@ public class Task {
     private String projectName;
     private boolean done;
 
-    /*
-    @param taskNu to store the taskID.
-    @param title to store the task title.
-    @param date to store the task due date.
-    @param project to store the project name.
-    <code> if</code> will accept the date values only 
-     if the user entered a digits number other wise
-   <code> else</code> will show that its wrong value.
+    /**
+     * @param taskNu to store the taskID.
+     * @param title to store the task title.
+     * @param date to store the task due date.
+     * @param project to store the project name.
+     * <code> if</code> will accept the date values only 
+     * if the user entered a digits number other wise
+     * <code> else</code> will show that its wrong value. 
      */
     public Task(String taskNu, String title, String date, String project) {
 

@@ -1,7 +1,7 @@
-/*
-This class is part of "ToDo list" application on this class will represent 
-the command words, how to deal with it and
-recognize weather a user entered a valid command or not.
+/**
+ * This class is part of "ToDo list" application on this class will represent 
+ * the command words, how to deal with it and
+ * recognize weather a user entered a valid command or not.
  */
 package se.kth.sdaproject.toDoList.view;
 
@@ -58,10 +58,11 @@ public class CommandWords {
       
     }
 
-    /*
-    Check whether a given String is a valid command word  .
-    take the correct commands from the user and call the requirment method to 
-    excute the user demands.
+    /**
+     *  Check whether a given String is a valid command word  .
+     * take the correct commands from the user and call the requirement method to 
+     * execute the user demands.
+     * @throws IOException 
      */
     public void action() throws IOException {
         ArrayList<Task> taskList = new ArrayList<>();

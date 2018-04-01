@@ -1,9 +1,9 @@
-/* This class is a part of "ToDo list" application.
-this class will hold information of different tasks and store it
-in an ArrayList of type object.
-also have some methods to handel different application demands
-which is showen below. 
- 
+/**
+ * This class is a part of "ToDo list" application.
+ * this class will hold information of different tasks and store it
+ * in an ArrayList of type object.
+ * also have some methods to handle different application demands
+ * which is shown below.
  */
 package se.kth.sdaproject.toDoList.controller;
 
@@ -18,9 +18,11 @@ public class TaskList {
     private Scanner input;
 
 
-    /* costructer create TaskList object which consist of
-    creating ArratyList object and scanner object to take the inputs from the user.
+    /**
+     * constructor create TaskList object which consist of
+     * creating ArratyList object and scanner object to take the inputs from the user.
      */
+    
     public TaskList() {
         tasks = new ArrayList<>();
         input = new Scanner(System.in);
@@ -35,16 +37,18 @@ public class TaskList {
         this.tasks = tasks;
     }
 
-    /* this method to add new task
-    @param taskRequirment will hold the taskID, title, date and project name.
-     */
+    /** this method to add new task
+    @param taskRequirment will hold the taskID, title, date and project name. 
+    */
     public void addTask(Task taskRequirment) {
 
         tasks.add(taskRequirment);
 
     }
 
-    /* this method is to return number of tasks.
+    /**
+     * This method is to return number of tasks.
+     * @return 
      */
     public int getNumberOfTasks() {
         return tasks.size();
