@@ -1,6 +1,10 @@
 
-package se.kth.sdaproject.toDoList;
+package se.kth.sdaproject.toDoList.startup;
 
+
+
+
+import se.kth.sdaproject.toDoList.view.CommandWords;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

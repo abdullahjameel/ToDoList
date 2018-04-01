@@ -2,8 +2,10 @@
  * This class is a part of ToDo project classes
  * which will create a file, read and save date. 
  */
-package se.kth.sdaproject.toDoList;
+package se.kth.sdaproject.toDoList.DBhandler;
 
+
+import se.kth.sdaproject.toDoList.model.Task;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;

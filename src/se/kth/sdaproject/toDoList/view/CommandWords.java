@@ -3,11 +3,14 @@ This class is part of "ToDo list" application on this class will represent
 the command words, how to deal with it and
 recognize weather a user entered a valid command or not.
  */
-package se.kth.sdaproject.toDoList;
+package se.kth.sdaproject.toDoList.view;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
+import se.kth.sdaproject.toDoList.DBhandler.IOFile;
+import se.kth.sdaproject.toDoList.model.Task;
+import se.kth.sdaproject.toDoList.controller.TaskList;
 
 
 public class CommandWords {
@@ -43,15 +46,15 @@ public class CommandWords {
  */
     public void printMenu() {
         
-        System.out.println("Welcome to ToDo list");
-        System.out.println("You have : " + task.noOftasksNotdone() + " tasks to do and: " + task.nuOfDone() + " tasks are done ");
-        System.out.println("pick an option:");
-        System.out.println("1:Show task list.");
-        System.out.println("2:Add new task.");
-        System.out.println("3:Edit task.");
-        System.out.println("4:Save and quit.");
-        System.out.print(">> ");
-        showCommands();
+        System.out.println(">> Welcome to ToDo list");
+        System.out.println(">> You have : " + task.noOftasksNotdone() + " tasks to do. And: " + task.nuOfDone() + " tasks are done ");
+        System.out.println(">> pick an option:");
+        System.out.println(">> Enter 'show' to show your tasks list.");
+        System.out.println(">> Enter 'add'  to add new task.");
+        System.out.println(">> Enter 'edit' to edit task.");
+        System.out.println(">> Enter 'saq'  to save and quit.");
+      //  System.out.print(">> ");
+        // showCommands();
       
     }
 
@@ -102,7 +105,7 @@ public class CommandWords {
  * @return new Task.
  */
     private Task getTaskFromUser() {
-        System.out.println("Enter : TaskID  Title   yy:mm:dd   projectName");
+        System.out.println("Enter : TaskID  Title   yy:mm:dd   projectName\n");
         boolean status = false;
         String taskNu = "";
         String title = "";
@@ -139,7 +142,7 @@ public class CommandWords {
                     
                 }
             } catch (Exception e) {
-                System.out.println("please enter a correct date form, enter the taskID ,title,date and project name again");
+                System.out.println("please enter a correct date form, enter the taskID ,title and date again");
               
 
             }

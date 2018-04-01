@@ -5,11 +5,12 @@ also have some methods to handel different application demands
 which is showen below. 
  
  */
-package se.kth.sdaproject.toDoList;
+package se.kth.sdaproject.toDoList.controller;
 
 import java.util.stream.Collectors;
 import java.util.*;
 import java.util.Scanner;
+import se.kth.sdaproject.toDoList.model.Task;
 
 public class TaskList {
 
