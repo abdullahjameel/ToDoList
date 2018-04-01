@@ -4,7 +4,7 @@ The application will allow a user to create new tasks, assigen them a ***title**
 
 The interface look similar to the mockup below:
 -----------------------------------------------
-- ">>" wellcome to todo list
+->> wellcome to todo list
 - '>>' you have : x tasks to do. And: y tasks are done
 - >> pick up an option:
 - >> Enter 'show' to show your tasks list.
