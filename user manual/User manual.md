@@ -6,8 +6,8 @@
 ----------------------------------
 
 - Allow the user to show the tasks as the picture bellow:
-
-![test](Screen Shot 2018-04-03 at 15.54.26.png)
+Screen
+![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2015.54.26.png)
 ----------------------------------
 - Allow the user to edit task in 3 options:
 
