@@ -1,24 +1,24 @@
 ##### User Manual
-- Allow the user to add a new task consist of taskId, title, date and project name.The user need to enter add to create it.
+- To add a new task consist of taskId, title, date and project name, the user need to enter "add" as following:
 
 ![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2015.21.51.png)
 
 ----------------------------------
 
-- Allow the user to show the tasks as the picture bellow:
-Screen
+- To show the tasks, the user need to enter "show" as the picture bellow:
+
 
 ![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2015.54.26.png)
 
 ----------------------------------
-- Allow the user to edit task in 3 options:
+- there are 3 options when the user want to edit a task (delete, mark as done, update). Enter "edit" and then choose one of the following:
 
-1- press "1" delete the task, and enter the taskID to the specific task want to delete.
+1- press "1" to delete the task, then enter the taskID to the specific task want to delete.
 
 ![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2015.51.45.png)
 
 
-2- press "2" to mark the task as done, enter the taskID to the specific task want to mark.
+2- press "2" to mark the task as done, then enter the taskID to the specific task want to mark.
 
 ![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2015.58.36.png)
 
@@ -31,4 +31,4 @@ Screen
 
 -------------------------------------
 
-- The last choice is to save the details and quit by entering "saq".
+- The last choice is to save the details in a file and quite the program by entering "saq".
