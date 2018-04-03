@@ -1,7 +1,7 @@
 ### User Manual
 - Allow the user to add a new task consist of taskId, title, date and project name.The user need to enter add to create it.
 
-![test](Screen Shot 2018-04-03 at 15.21.51.png)
+![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2015.21.51.png)
 
 ----------------------------------
 
@@ -13,16 +13,16 @@ Screen
 
 1- press "1" delete the task, and enter the taskID to the specific task want to delete.
 
-![test](Screen Shot 2018-04-03 at 15.51.45.png)
+![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2015.51.45.png)
 
 
 2- press "2" to mark the task as done, enter the taskID to the specific task want to mark.
 
-![test](Screen Shot 2018-04-03 at 15.58.36.png)
+![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2015.58.36.png)
 
 
 3- press "3" to update the the task, then enter the taskID of the specific task want to update.
-![test](Screen Shot 2018-04-03 at 16.01.19.png)
+![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2016.01.19.png)
 
 
 
