@@ -1,4 +1,4 @@
-### User Manual
+##### User Manual
 - Allow the user to add a new task consist of taskId, title, date and project name.The user need to enter add to create it.
 
 ![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2015.21.51.png)
@@ -7,7 +7,9 @@
 
 - Allow the user to show the tasks as the picture bellow:
 Screen
+
 ![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2015.54.26.png)
+
 ----------------------------------
 - Allow the user to edit task in 3 options:
 
@@ -22,6 +24,7 @@ Screen
 
 
 3- press "3" to update the the task, then enter the taskID of the specific task want to update.
+
 ![test](https://github.com/abdullahjameel/ToDoList/blob/toDoBranch/user%20manual/Screen%20Shot%202018-04-03%20at%2016.01.19.png)
 
 
