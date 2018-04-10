@@ -65,8 +65,10 @@ public class CommandWords {
      * @throws IOException 
      */
     public void action() throws IOException {
-        ArrayList<Task> taskList = new ArrayList<>();
-        taskList = file.getTasks();
+        ArrayList<Task> taskList = file.getTasks();
+//        new ArrayList<>();
+  //      taskList = file.getTasks();
+        
         if (!taskList.isEmpty()) {
             task.setTasks(taskList);
         }

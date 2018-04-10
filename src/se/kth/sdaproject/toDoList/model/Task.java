@@ -21,6 +21,7 @@ public class Task {
     private String projectName;
     private boolean done;
 
+    
     /**
      * @param taskNu to store the taskID.
      * @param title to store the task title.
@@ -101,7 +102,7 @@ public class Task {
         return done;
     }
 /**
- * set the new date if the user edit the date, accept only interger value.
+ * set the new date if the user edit the date, accept only integer value.
  * @param newDate 
  */
     public void setDate(String newDate) {
